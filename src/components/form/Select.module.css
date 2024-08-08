@@ -11,7 +11,13 @@
 
 .form_control select {
     padding: .7em;
-    border-radius: 0;
+    border-radius: 10px;
     border: none;
+    box-shadow: 0px 0px 2px rgb(108, 105, 105);
+}
+
+.form_control select:focus {
+    border: 0.5px solid black;
+    outline: none;
 }
 

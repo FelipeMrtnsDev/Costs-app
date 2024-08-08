@@ -1,125 +1,46 @@
 {
   "projects": [
     {
-      "id": "a495",
-      "name": "asdw",
-      "budget": "12313",
+      "id": "9444",
+      "name": "site para a empresa",
+      "budget": "150000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 35000,
+      "services": [
+        {
+          "name": "desenvolvedor senior backend",
+          "cost": "20000",
+          "description": "as",
+          "id": "f39db38a-096e-4c70-8a96-03fc1cb4420d"
+        },
+        {
+          "name": "desenvolvedor frontend",
+          "cost": "15000",
+          "description": "interface grafica do sistema",
+          "id": "40de1156-b255-405b-adbc-83b232a527fd"
+        }
+      ]
     },
     {
-      "id": "cd0f",
+      "id": "3033",
       "name": "projeto teste",
       "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "c1c0",
-      "name": "projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "d733",
-      "name": "projeto sucesso",
-      "budget": "5000",
-      "category": {
-        "id": "3",
-        "name": "Designer"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "f21a",
-      "name": "as",
-      "budget": "12333",
-      "category": {
-        "id": "3",
-        "name": "Designer"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "fbed",
-      "name": "d",
-      "budget": "4",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "fda0",
-      "name": "a",
-      "budget": "55",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "72be",
-      "name": "a",
-      "budget": "55",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "e2ac",
-      "name": "a",
-      "budget": "55",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "bae6",
-      "name": "gh",
-      "budget": "44",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "6cab",
-      "name": "dfg",
-      "budget": "2311",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
+      "cost": 1000,
+      "services": [
+        {
+          "name": "desenvolvedor backend",
+          "cost": "1000",
+          "description": "desenvolver funções no banco de dados",
+          "id": "87a4c1e2-28d5-4ee5-b897-6cd3e3cc37e3"
+        }
+      ]
     }
   ],
   "categories": [
