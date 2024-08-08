@@ -23,7 +23,7 @@ function Projects() {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/projects', {
+        fetch('http://localhost:4000/projects', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ function Projects() {
 
     function removeProject(id) {
 
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`http://localhost:4000/projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

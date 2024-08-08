@@ -41,6 +41,17 @@
           "id": "87a4c1e2-28d5-4ee5-b897-6cd3e3cc37e3"
         }
       ]
+    },
+    {
+      "id": "ab3b",
+      "name": "projeto teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [

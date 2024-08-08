@@ -25,7 +25,7 @@ function Project() {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`http://localhost:4000/projects/${id}`, {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ function Project() {
             return false
         }
 
-        fetch(`http://localhost:5000/projects/${project.id}`,{
+        fetch(`http://localhost:4000/projects/${project.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -87,7 +87,7 @@ function Project() {
 
         project.cost = newCost
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`http://localhost:4000/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -113,7 +113,7 @@ function Project() {
         projectUpdated.services = servicesUpdate
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`http://localhost:5000/projects/${projectUpdated.id}`,{
+        fetch(`http://localhost:4000/projects/${projectUpdated.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
