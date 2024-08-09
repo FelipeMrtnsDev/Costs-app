@@ -19,3 +19,5 @@ Tecnologias Utilizadas:
 
 React: Framework para a construção da interface de usuário, proporcionando uma experiência interativa e responsiva.
 JSON Server: Ferramenta para simular uma API RESTful com um banco de dados JSON, facilitando a gestão de dados e a realização de operações CRUD (Criar, Ler, Atualizar, Excluir).
+
+link: https://costs-app-six.vercel.app/
